@@ -11,3 +11,13 @@
 * In this example we are going to use the Task-specific knowledge distillation.
 * In Task-specific knowledge distillation a "second step of distillation" is used to "fine-tune" the model on a given dataset. This idea comes from the [DistilBERT]() paper where it was shown that a student performed better than simply finetuning the distilled language model.
 
+## How to run
+To run fine-tuning of Teacher Model
+```shell
+python fine-tuning.py
+```
+To run Knowledge Distillation of Teacher and Student Model
+```shell
+python knowledge-distillation.py
+```
+
